@@ -29,7 +29,7 @@ _💡 You can draw a background or you can switch to the **My Assets** tab at th
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 //@highlight
 scene.setBackgroundImage(assets.image`Background`)
 ```
@@ -51,7 +51,7 @@ _💡 Switch to the **My Assets** tab to choose the same frog we use, or draw on
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 scene.setBackgroundImage(assets.image`Background`)
 //@highlight
 let frog = sprites.create(assets.image`Hero`, SpriteKind.Player)
@@ -85,7 +85,7 @@ block into **the end** of the<br/>
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 let frog: Sprite = null
 scene.setBackgroundImage(assets.image`Background`)
 frog = sprites.create(assets.image`Hero`, SpriteKind.Player)
@@ -117,7 +117,7 @@ let fly = sprites.create(img`.`, SpriteKind.Food)
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 let frog: Sprite = null
 let fly: Sprite = null
 scene.setBackgroundImage(assets.image`Background`)
@@ -145,7 +145,7 @@ _💡 Anything between 100 and 200 is entertaining._
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 let frog: Sprite = null
 let fly: Sprite = null
 scene.setBackgroundImage(assets.image`Background`)
@@ -184,7 +184,7 @@ block and snap it into the  **the end** of the <br/>
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 let frog: Sprite = null
 let fly: Sprite = null
 scene.setBackgroundImage(assets.image`Background`)
@@ -216,7 +216,7 @@ block (from the ``||logic:Logic||`` category).
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 //@highlight
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
     //@highlight
@@ -236,7 +236,7 @@ and drop it in to replace **`<true>`** in the <br/>
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 let frog: Sprite = null
 let fly: Sprite = null
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -270,7 +270,7 @@ into the bottom (**else**) section of the<br/>
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 let frog: Sprite = null
 let fly: Sprite = null
 controller.A.onEvent(ControllerButtonEvent.Pressed, function () {
@@ -313,7 +313,7 @@ Now you have exactly 10 seconds to catch the fly before the game ends!
 
 #### ~ tutorialhint
 
-```blocks
+```spy
 let frog: Sprite = null
 let fly: Sprite = null
 scene.setBackgroundImage(assets.image`Background`)
