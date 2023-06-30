@@ -11,7 +11,7 @@ you can press ``||controller:a||`` to add more balls to the screen,
 or ``||controller:b||`` to lower the number of balls.
 Beware that both of these actions will cost you **2** points!
 
-```typescript
+```spy
 const BALL_IMAGE = img`
     . . e e 1 e e e . .
     . e 1 1 d d d d e .
