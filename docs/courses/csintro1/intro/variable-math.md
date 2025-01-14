@@ -6,9 +6,9 @@ A variable points to a container that can store data. We have previously used va
 Variables are used extensively in code. Variables allow code to be written in a generic way, and allow for easier reuse of our code. Math equations, like `X = 2Y`, provide familiar examples in the use of variables that apply to code by assigning known values to variables to calculate unknown variable values. 
 
 If we know `Y = 3` we can calculate `X` from our equation. Later on, `Y` can have a different value, like `Y = 7`. We can reuse the equation, `X = 2Y`, for both values of `Y`. This way, the value of `X` will change alongside the value of `Y`.
-### ~hint
+
 **Variable Definition**: a container used to store values in your code.
-### ~
+
 In this activity, students are introduced to:
 * Expressing numeric operations with math operators (`+`, `-`, `*`, `/`)
 * Storing the result of an equation in a variable 
@@ -31,13 +31,11 @@ game.splash("3 + 5 = " + answer)
 2. Experiment using different numbers in our equation (e.g. `9 + 2`)
 3. Test at least 3 different equations
 4. **Challenge:** make longer addition equations with ``||math:Math||`` blocks so that the code calculates the sum of 5 or more numbers. If the equation gets too long, then display using ``||game:show long text||``
-### ~hint
-In order to combine multiple items we will need to add additional ``||math:Math||`` blocks
-### ~
 
-### ~hint
+In order to combine multiple items we will need to add additional ``||math:Math||`` blocks
+
 The splash screen is primarily designed for short sentences. This limits the length of equation we can effectively display. ``||game:show long text||`` allows for a better representation for longer text.
-### ~
+
 
 ## Concept: Basic math operators with variables 
 We can convert variable based math equations, like `A = B + C`, into code using our code variables and math operators.
@@ -81,9 +79,7 @@ game.splash("5 * 7 = " + answer)
 3. Create an equation using 3 different operators
 4. **Challenge:** create an equation using all 4 basic operators (`+`, `-`, `*`, `/`) and at least 5 unique variables
 
-### ~hint
 Look at the JavaScript code. For multiple operator equations it is often easier to code in JavaScript. Note how using parenthesis `( )` changes the equation.
-### ~
 
 ## Student Task #4: Conversion
 1. Create 2 variables
@@ -96,9 +92,7 @@ Look at the JavaScript code. For multiple operator equations it is often easier 
     * ``||variables:tempC||`` = (``||variables:tempF||`` - 32) × 5/9
     * pay careful attention to the parentheses
 
-### ~hint
 It can be difficult to structure complicated expressions using blocks. Look at and edit the JavaScript code to create the formula where it looks much more like a standard math equation.
-### ~
 
 ## Student Task #5: Debugging
 1. We decided that we want to have three different variables in our code - ``||variables:a||``, ``||variables:b||``, and ``||variables:c||``. The variable ``||variables:a||`` should be set to `3`, ``||variables:b||`` should be set to `a + 5`, and ``||variables:c||`` should be set to `a + 2 * b`. This should result in ``||variables:a||`` storing 3, ``||variables:b||`` storing 8, and ``||variables:c||`` storing 19 at the end. When we wrote this out, though, we found that we couldn't run our code. What is going wrong in the following code, and how can you fix it?
@@ -111,9 +105,7 @@ let c = (a + 2) * b
 game.splash(c)
 ```
 
-### ~hint
 Click edit to fix code. ``||game:splash||`` can display string characters. Review the previous examples that use ``||game:splash||``.
-### ~
 
 2. After you are able to run the code, the value of ``||variables:c||`` should be shown on the screen. There's a problem because the value shown is not quite right. Rearrange the existing blocks so that it produces the correct output, without removing or adding any JavaScript or blocks beyond what was necessary for part 1. What went wrong? Fix the output.
 
