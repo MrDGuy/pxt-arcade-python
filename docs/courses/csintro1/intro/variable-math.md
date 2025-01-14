@@ -1,7 +1,5 @@
 # Activity: Math Operators with Variables 
 
-[![Link to Video](/static/thumbnail_play_video.png)](https://youtu.be/79vikAMjpBs)
-
 A variable points to a container that can store data. We have previously used variable names for sprites (for example, ``||variables:mySprite||``). Variables act like an address, and allow us to store, retrieve, and update data. For the examples in the [Sprites](/courses/csintro1/intro/sprites
 ) lesson, the variable ``||variables:mySprite||`` allowed us to interact with the sprite in our game. The word "variable" also means change. We can update the values our variable point to, such as updating the ``||variables:mySprite||`` variable to point to a completely different sprite.
 
@@ -24,13 +22,6 @@ In this activity, students are introduced to:
 * Displaying text with ``||game:splash||`` by using ``||text:join||``
 * Differentiating between the number and string data types
 
-## Concept: Assign Number Variables and displaying numeric values
-
-[![Link to Video](/static/thumbnail_play_video.png)](https://youtu.be/0cvZZrmXeEg)
-
-## Concept: Using Math Operators with Variables
-
-[![Link to Video](/static/thumbnail_play_video.png)](https://youtu.be/PeLTFJwaNBU)
 
 ## Example #1: Math equation in a variable #example-1
 
@@ -67,7 +58,6 @@ The splash screen is primarily designed for short sentences. This limits the len
 
 ## Concept: Basic math operators with variables 
 
-[![Link to Video](/static/thumbnail_play_video.png)](https://youtu.be/xru53piCWUk)
 
 We can convert variable based math equations, like `A = B + C`, into code using our code variables and math operators.
 
