@@ -38,7 +38,7 @@ In this activity, students are introduced to:
 2. Create a new project and name it “equation variable”
 3. Create the sample code and run the code
 
-```blocks
+```typescript
 let answer = 0
 answer = 3 + 5
 game.splash("3 + 5 = " + answer)
@@ -86,7 +86,7 @@ In JavaScript, the following order of operation precedence applies:
 2. Create the sample code and run the code
 3. Press the A button to see the second equation on splash message
 
-```blocks
+```typescript
 let answer = 0
 let firstNumber = 0
 let secondNumber = 0
