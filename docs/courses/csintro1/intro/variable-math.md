@@ -46,8 +46,6 @@ game.splash("3 + 5 = " + answer)
 
 In order to combine multiple items we will need to add additional ``||math:Math||`` blocks
 
-![animation: adding 3 numbers with blocks](/static/courses/csintro1/intro/add-3-numbers.gif)
-
 ### ~
 
 ### ~hint
@@ -92,8 +90,6 @@ game.splash("5 * 7 = " + answer)
 
 ## Student Task #2: Basic math operators with variables
 
-[![Link to Video](/static/thumbnail_play_video.png)](https://youtu.be/-Q5jhsj4dyg)
-
 1. Start with [example #2](#example-2)
 2. Add a ``||variables:thirdNumber||`` variable with a unique value
 3. Create an equation using both the addition operator (`+`) and the multiplication operator (`*`)
@@ -133,9 +129,13 @@ It can be difficult to structure complicated expressions using blocks. Look at a
 
 1. We decided that we want to have three different variables in our code - ``||variables:a||``, ``||variables:b||``, and ``||variables:c||``. The variable ``||variables:a||`` should be set to `3`, ``||variables:b||`` should be set to `a + 5`, and ``||variables:c||`` should be set to `a + 2 * b`. This should result in ``||variables:a||`` storing 3, ``||variables:b||`` storing 8, and ``||variables:c||`` storing 19 at the end. When we wrote this out, though, we found that we couldn't run our code. What is going wrong in the following code, and how can you fix it?
 
-[Fix the Code here](https://makecode.com/_0qfiscfhEY9P)
-
-![image of code blocks with error](/static/courses/csintro1/intro/fix-code.png)
+[Fix the Code here]
+```typscript
+let a = 3
+let b = a + 5
+let c = (a + 2) * b
+game.splash(c)
+```
 
 ### ~hint
 
@@ -146,8 +146,6 @@ Click edit to fix code. ``||game:splash||`` can display string characters. Revie
 2. After you are able to run the code, the value of ``||variables:c||`` should be shown on the screen. There's a problem because the value shown is not quite right. Rearrange the existing blocks so that it produces the correct output, without removing or adding any JavaScript or blocks beyond what was necessary for part 1. What went wrong? Fix the output.
 
 ## Variables Summary
-
-[![Link to Video](/static/thumbnail_play_video.png)](https://youtu.be/6hB7Daj2VT0)
 
 * Variables are names that point to a container that can be updated to hold different data types.
 * Data Types used in variables so far are ``||variables:Sprite||``, ``||variables:numbers||`` and ``||variables:strings||``.
